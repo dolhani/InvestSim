@@ -10,7 +10,7 @@ st.title("Investment Simulation Graph (Cumulative Change, Log Scale)")
 st.write("Adjust the input values and press 'Rerun' to re-execute the simulation.")
 
 # Input values
-success_prob = st.slider("Success Probability (0-1)", 0.0, 1.0, 0.5, 0.01)
+success_prob = st.slider("Success Probability (0-1)", 0.0, 1.0, 0.53, 0.01)
 success_multiplier = st.slider("Success Multiplier (e.g., 1.3 = 30% profit)", 1.0, 10.0, 1.3, 0.01)
 failure_multiplier = st.slider("Failure Multiplier (e.g., 0.7 = -30% loss)", 0.0, 1.0, 0.7, 0.01)
 leverage = st.slider("Leverage Ratio (0-1)", 0.0, 1.0, 0.1, 0.01)
